@@ -43,5 +43,5 @@ RPC : 41000
 
 Testnet:
 
-Testnet P2P : 51500
-Testnet RPC : 52000
+P2P : 51500
+RPC : 52000
