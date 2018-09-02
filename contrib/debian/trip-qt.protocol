@@ -1,0 +1,11 @@
+[Protocol]
+exec=trip-qt '%u'
+protocol=trip
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
