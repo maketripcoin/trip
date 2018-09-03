@@ -30,7 +30,6 @@ More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thr
 </table>
 
 
-### Reward Distribution
 
 <table>
 <th colspan=4>PoW Phase</th>
