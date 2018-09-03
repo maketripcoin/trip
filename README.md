@@ -15,6 +15,9 @@ More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thr
 ### MN Collateral
 20,000 TRIP
 
+### Masternode Script Link
+[Masternode Script] (https://github.com/maketripcoin/tripscript)
+
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Xevan</td></tr>
