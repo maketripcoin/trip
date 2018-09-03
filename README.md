@@ -16,7 +16,7 @@ More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thr
 20,000 TRIP
 
 ### Masternode Script Link
-[Masternode Script] (https://github.com/maketripcoin/tripscript)
+[Masternode Script](https://github.com/maketripcoin/tripscript)
 
 ### Coin Specs
 <table>
