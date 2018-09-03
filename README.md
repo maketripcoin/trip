@@ -13,7 +13,7 @@ Trip is a cutting edge cryptocurrency, with many features not available in most 
 More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=506320.0)
 
 ### MN Collateral
-20,000 TRIP
+*20,000 TRIP
 
 ### Masternode Script Link
 [Masternode Script](https://github.com/maketripcoin/tripscript)
@@ -41,10 +41,10 @@ More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thr
 
 Mainnet:
  
-P2P : 40500
-RPC : 41000
+*P2P : 40500
+*RPC : 41000
 
 Testnet:
 
-P2P : 51500
-RPC : 52000
+*P2P : 51500
+*RPC : 52000
