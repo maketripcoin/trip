@@ -54,7 +54,8 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000869497e2ba8571b447bc179e12c9157efd92fb587bfb9e1b4bb63db9eb1"));
+    (0, uint256("0x00000869497e2ba8571b447bc179e12c9157efd92fb587bfb9e1b4bb63db9eb1"))
+    (1361, uint256("0x94774ab4d12e1a87d99b231b901c4e92a9ee3e7bc8cee91c8e64aeee6a716d4a"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1535576284, // * UNIX timestamp of last checkpoint block
@@ -237,15 +238,15 @@ public:
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 5000000 * COIN;
-        nZerocoinStartHeight = 201576;
-        nZerocoinStartTime = 1535599209;
+        nZerocoinStartHeight = 200;
+        nZerocoinStartTime = 1535997600;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 9908000; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 9891737; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 9891730; //Last valid accumulator checkpoint
+        nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
+        nBlockFirstFraudulent = ~1; //First block that bad serials emerged
+        nBlockLastGoodCheckpoint = ~1; //Last valid accumulator checkpoint
         
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1515616140;
+        genesis.nTime = 1535997600;
         genesis.nNonce = 79855;
 
 	    hashGenesisBlock = genesis.GetHash();
@@ -258,9 +259,9 @@ public:
         vSeeds.push_back(CDNSSeedData("testnet.tripcoin.live", "testnet.tripcoin.live"));       // Single node address
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 15); // Testnet trip addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8);  // Testnet trip script addresses start with '8' or '9'
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23); // Testnet trip addresses start with 'A'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 25);  // Testnet trip script addresses start with 'B'
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 28);     // Testnet private keys start with 'C'
         // Testnet trip BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
         // Testnet trip BIP32 prvkeys start with 'DRKP'
@@ -280,7 +281,7 @@ public:
 
         nPoolMaxTransactions = 2;
         strSporkKey = "0433888dad0a73c5472244432df8f7458ca83ac634ab28bcff47bcd7588feed8b214f11d817dad4e1cf2b940ef487990ab169ce1c9c64af09a91dc8084752167ec";
-        strObfuscationPoolDummyAddress = "xp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
+        strObfuscationPoolDummyAddress = "Bp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
                                        // here because we only have a 8 block finalization window on testnet
@@ -315,7 +316,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Trip: 1 day
         nTargetSpacing = 1 * 60;        // Trip: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1515524400;
+        genesis.nTime = 1535997600;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 732084;
 

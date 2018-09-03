@@ -2128,6 +2128,11 @@ int64_t GetBlockValue(int nHeight)
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         if (nHeight < 200 && nHeight > 0)
             return 250000 * COIN;
+    } else if (nHeight > 200) {
+        nSubsidy = 100 * COIN;
+    }
+    return nSubsidy;
+    
     }
 
      if (IsSporkActive(SPORK_18_SPORK_REWARDS)) {
