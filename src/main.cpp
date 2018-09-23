@@ -2130,10 +2130,6 @@ int64_t GetBlockValue(int nHeight)
             return 250000 * COIN;
     }
 
-     if (IsSporkActive(SPORK_18_SPORK_REWARDS)) {
-        return GetSporkValue(SPORK_19_REWARDS) * COIN;
-    }
-
     if (nHeight == 1) {
         nSubsidy = 2500000 * COIN;
     } else if (nHeight < 10000 && nHeight > 10) {
