@@ -445,4 +445,3 @@ bool SelectParamsFromCommandLine()
     SelectParams(network);
     return true;
 }
-"))
