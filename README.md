@@ -37,6 +37,7 @@ More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thr
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
 <tr><td>1</td><td>2,500,000 TRIP</td><td>Initial Premine for Coin Swap</td><td>0 Days</td></tr>
 
+<<<<<<< HEAD
 ### Ports
 
 Mainnet:
@@ -52,3 +53,16 @@ Testnet:
 # trip
 Trip 2.0.1 Post Rebrand Release
 >>>>>>> parent of 4618934... Rebrand
+=======
+### Ports
+
+Mainnet:
+ 
+P2P : 40500
+RPC : 41000
+
+Testnet:
+
+Testnet P2P : 51500
+Testnet RPC : 52000
+>>>>>>> parent of 5d1f96f... Update README.md
