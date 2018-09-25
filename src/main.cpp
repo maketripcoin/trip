@@ -2135,10 +2135,6 @@ int64_t GetBlockValue(int nHeight)
     
     }
 
-     if (IsSporkActive(SPORK_18_SPORK_REWARDS)) {
-        return GetSporkValue(SPORK_19_REWARDS) * COIN;
-    }
-
     if (nHeight == 1) {
         nSubsidy = 2500000 * COIN;
     } else if (nHeight < 10000 && nHeight > 10) {
@@ -2210,7 +2206,7 @@ bool IsInitialBlockDownload()
 }
 
 bool fLargeWorkForkFound = false;
-bool fLargeWorkInvalidChainFound = false;
+bool fLargeWorkInvalidChainFound = true;
 CBlockIndex *pindexBestForkTip = NULL, *pindexBestForkBase = NULL;
 
 void CheckForkWarningConditions()
