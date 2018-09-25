@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 [![Build Status](https://travis-ci.org/trip-project/trip.svg?branch=master)](https://travis-ci.org/trip-project/trip)
 # Trip Core integration/staging repository
@@ -47,3 +48,7 @@ Testnet:
 
 * P2P : 51500
 * RPC : 52000
+=======
+# trip
+Trip 2.0.1 Post Rebrand Release
+>>>>>>> parent of 4618934... Rebrand
