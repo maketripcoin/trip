@@ -54,11 +54,40 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000869497e2ba8571b447bc179e12c9157efd92fb587bfb9e1b4bb63db9eb1"));
+    (0, uint256("0x00000869497e2ba8571b447bc179e12c9157efd92fb587bfb9e1b4bb63db9eb1"))
+    (1361, uint256("0x94774ab4d12e1a87d99b231b901c4e92a9ee3e7bc8cee91c8e64aeee6a716d4a"))
+    (25001, uint256("0x82947925fb12ed1bcb35e5136b87422a03528ebf5b27df5bbaf54df274b0e26d"))
+    (25002, uint256("0xacf842e94f643b3dd89b631ac6fe13ea7ad7827946b728e7987cdea4414b257e"))
+    (25003, uint256("0xe84df02fed7dc1e0ff2ac73967480f4e4a1150fe7985d035583f767f7d9f6ca8"))
+    (25004, uint256("0xc4a2cadf04ca0938f802d9462bfd5377b0844c8bf47b0222778932f326ef1711"))
+    (25005, uint256("0x3a5b6c20a1d39e2e2545a9ad569cad02b8008611cf6fa88c1db056be1fb3156c"))
+    (25006, uint256("0x47f7a1748596824d3299a605a8a62bfbc9ea59337386b3d5f14da37bdc043569"))
+    (25007, uint256("0x4f46c011412de9197d0d20f41f13235fd623e17faa3a87f5f992ad7c6059bc25"))
+    (25008, uint256("0x957b080a0bd9dc6b49e5990ffbdbc1a63d0b6d00c4ded46fcc4f33883fabf83e"))
+    (25009, uint256("0x684d2368bee2d73db391924c0b5b7596afb773ba5c6b5fe310d1e17be0acc8cf"))
+    (25010, uint256("0xa756b3f2bfb8eaa0c487a14c933fa21a689bbf33f38d54d0fa157347d0320bf5"))
+    (25011, uint256("0x118e6c2363946c8cc66e99ca09e9200541b9a62b990a315da44d3486f39818fc"))
+    (25012, uint256("0xd3d9712afc4a440571f2fb6fb459dbfeaeda7b1b8951fdbd42fece35d490cbc3"))
+    (25013, uint256("0x7856db4a90c13529962c5d22ed72e9cc2822c2abb9890a64c10a8772aae6048f"))
+    (25014, uint256("0x186a062ad951f277b80fdad0d75d7bf673fa2e9ad8a2bf6c67cf8b73ed920baa"))
+    (25015, uint256("0x3519031a29cf5b01fa98c6da407b771f01bc3c233b62afce2dc05777dd3cbbaf"))
+    (25016, uint256("0x5b014595227bf3a0043040c0321c6c0673d816c65f4e5929f106b634f51ef7fa"))
+    (25017, uint256("0x2d0af5b9e3747aff90978dcf90912e4558cbcbea7ec76d6812e3d9d6e5535071"))
+    (25018, uint256("0xe15c2379f6de9f4a8e0e14fa504b586021d276626ebb66ad6a5ea833c8bff9a3"))
+    (25019, uint256("0x514496d0ab8ca71f684d4987fffc5ae89091f5a9dd790deefb6cf9dabedb810c"))
+    (25020, uint256("0x89088a324615c99fb3b4e894bd881f61165b5f81b05062e165b3f35131e3058c"))
+    (25021, uint256("0xf30d741588b7b8ecffbf314253ccf92da5cf43a584c01a519ce38061def8d40f"))
+    (25022, uint256("0xc55c6211f7514a1810727036ed6a75ccbf69e2be7b0d7fa17c99b8e1e2422ade"))
+    (25023, uint256("0xc94d570dd11ea20937bd03aad4e316cfb31aeef815836c2f5645c15803d0004d"))
+    (25024, uint256("0xbe1f35b2a65a5f5df0d0bc1fe0b4f9fcf4916dd675386b9dd02267ac2e1eb812"))
+    (25025, uint256("0x827f0edcc3dc29ba458f288da7bdd260db90c148fc34f80bd8399d9ca67a7e57"))
+    (25295, uint256("0x67f9b29ff3b79462abebc42a1e097cebb12d46ac7e1b03d9aa1e2c5d1c156401"))
+    (29220, uint256("0x3223877238bd06ff58c0e05526738510bb5fdf0f4ca7c3cd474c57dbc3ed4d04"));
+
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1535576284, // * UNIX timestamp of last checkpoint block
-    0,    // * total number of transactions between genesis and last checkpoint
+    1537725790, // * UNIX timestamp of last checkpoint block
+    58570,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -237,15 +266,15 @@ public:
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 5000000 * COIN;
-        nZerocoinStartHeight = 201576;
-        nZerocoinStartTime = 1535599209;
+        nZerocoinStartHeight = 200;
+        nZerocoinStartTime = 1535997600;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 9908000; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 9891737; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 9891730; //Last valid accumulator checkpoint
+        nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
+        nBlockFirstFraudulent = ~1; //First block that bad serials emerged
+        nBlockLastGoodCheckpoint = ~1; //Last valid accumulator checkpoint
         
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1515616140;
+        genesis.nTime = 1535997600;
         genesis.nNonce = 79855;
 
 	    hashGenesisBlock = genesis.GetHash();
@@ -258,9 +287,9 @@ public:
         vSeeds.push_back(CDNSSeedData("testnet.tripcoin.live", "testnet.tripcoin.live"));       // Single node address
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 15); // Testnet trip addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8);  // Testnet trip script addresses start with '8' or '9'
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23); // Testnet trip addresses start with 'A'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 25);  // Testnet trip script addresses start with 'B'
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 28);     // Testnet private keys start with 'C'
         // Testnet trip BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
         // Testnet trip BIP32 prvkeys start with 'DRKP'
@@ -280,7 +309,7 @@ public:
 
         nPoolMaxTransactions = 2;
         strSporkKey = "0433888dad0a73c5472244432df8f7458ca83ac634ab28bcff47bcd7588feed8b214f11d817dad4e1cf2b940ef487990ab169ce1c9c64af09a91dc8084752167ec";
-        strObfuscationPoolDummyAddress = "xp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
+        strObfuscationPoolDummyAddress = "Bp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
                                        // here because we only have a 8 block finalization window on testnet
@@ -315,7 +344,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Trip: 1 day
         nTargetSpacing = 1 * 60;        // Trip: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1515524400;
+        genesis.nTime = 1535997600;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 732084;
 

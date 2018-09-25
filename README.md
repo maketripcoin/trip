@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 [![Build Status](https://travis-ci.org/trip-project/trip.svg?branch=master)](https://travis-ci.org/trip-project/trip)
 # Trip Core integration/staging repository
@@ -13,7 +14,10 @@ Trip is a cutting edge cryptocurrency, with many features not available in most 
 More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=506320.0)
 
 ### MN Collateral
-20,000 TRIP
+* 20,000 TRIP
+
+### Masternode Script Link
+[Masternode Script](https://github.com/maketripcoin/tripscript)
 
 ### Coin Specs
 <table>
@@ -27,13 +31,29 @@ More information at [tripcoin.live](https://www.tripcoin.live) Visit our ANN thr
 </table>
 
 
-### Reward Distribution
 
 <table>
 <th colspan=4>PoW Phase</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
 <tr><td>1</td><td>2,500,000 TRIP</td><td>Initial Premine for Coin Swap</td><td>0 Days</td></tr>
 
+<<<<<<< HEAD
+### Ports
+
+Mainnet:
+ 
+* P2P : 40500
+* RPC : 41000
+
+Testnet:
+
+* P2P : 51500
+* RPC : 52000
+=======
+# trip
+Trip 2.0.1 Post Rebrand Release
+>>>>>>> parent of 4618934... Rebrand
+=======
 ### Ports
 
 Mainnet:
@@ -45,3 +65,4 @@ Testnet:
 
 Testnet P2P : 51500
 Testnet RPC : 52000
+>>>>>>> parent of 5d1f96f... Update README.md
