@@ -2130,26 +2130,26 @@ int64_t GetBlockValue(int nHeight)
             return 250000 * COIN;
     }
 
-    if (nHeight == 1) {
-        nSubsidy = 2500000 * COIN;
-    } else if (nHeight < 10000 && nHeight > 10) {
+   if (nHeight == 1) {
+        nSubsidy = 3800000 * COIN;
+    } else if (nHeight < 1000 && nHeight > 2) {
         nSubsidy = 1 * COIN;
-    } else if (nHeight <= 25000 && nHeight >= 10000) {
+    } else if (nHeight <= 2000 && nHeight >= 1000) {
+        nSubsidy = 2 * COIN;
+    } else if (nHeight <= 5000 && nHeight > 2000) {
+        nSubsidy = 3 * COIN;
+    } else if (nHeight <= 10000 && nHeight > 5000) {
         nSubsidy = 60 * COIN;
-    } else if (nHeight <= 40000 && nHeight > 25000) {
-        nSubsidy = 65 * COIN;
-    } else if (nHeight <= 55000 && nHeight > 40000) {
+    } else if (nHeight <= 25000 && nHeight > 10000) {
         nSubsidy = 70 * COIN;
-    } else if (nHeight <= 70000 && nHeight > 55000) {
-        nSubsidy = 75 * COIN;
-    } else if (nHeight <= 85000 && nHeight > 70000) {
+    } else if (nHeight <= 60000 && nHeight > 25000) {
         nSubsidy = 80 * COIN;
-    } else if (nHeight <= 100000 && nHeight > 85000) {
-        nSubsidy = 90 * COIN;
-    } else if (nHeight <= 130000 && nHeight > 100000) {
+    } else if (nHeight <= 100000 && nHeight > 60000) {
         nSubsidy = 100 * COIN;
+    } else if (nHeight <= 130000 && nHeight > 100000) {
+        nSubsidy = 120 * COIN;
     } else if (nHeight <= 160000 && nHeight > 130000) {
-        nSubsidy = 110 * COIN;
+        nSubsidy = 140 * COIN;
     } else if (nHeight <= 200000 && nHeight > 160000) {
         nSubsidy = 125 * COIN;
     } else if (nHeight <= 250000 && nHeight > 200000) {
@@ -2201,7 +2201,7 @@ bool IsInitialBlockDownload()
 }
 
 bool fLargeWorkForkFound = false;
-bool fLargeWorkInvalidChainFound = true;
+bool fLargeWorkInvalidChainFound = false;
 CBlockIndex *pindexBestForkTip = NULL, *pindexBestForkBase = NULL;
 
 void CheckForkWarningConditions()
