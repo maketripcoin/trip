@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000869497e2ba8571b447bc179e12c9157efd92fb587bfb9e1b4bb63db9eb1"));
+    (0, uint256(""));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1535576284, // * UNIX timestamp of last checkpoint block
@@ -158,7 +158,7 @@ public:
 		
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x00000869497e2ba8571b447bc179e12c9157efd92fb587bfb9e1b4bb63db9eb1"));
-        assert(genesis.hashMerkleRoot == uint256("0xf0c629f5f7d24a078c2e089566bf7d24fde2a7ad7893c6ff664617ed39627ba6"));
+        assert(genesis.hashMerkleRoot == uint256("0x4d74e829f126e1778b81cb1c2180050040404f0504ddc946ec2b9e27e794f6a2"));
 		
 	vSeeds.push_back(CDNSSeedData("seeds.tripcoin.live", "seeds.tripcoin.live"));         // Primary DNS Seeder
 	vSeeds.push_back(CDNSSeedData("dns1.tripcoin.live", "dns1.tripcoin.live"));         // Single node address
