@@ -403,7 +403,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "trip";
+    const char* pszModule = "tripcoin";
 #endif
     if (pex)
         return strprintf(
@@ -424,13 +424,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\trip
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\trip
-// Mac: ~/Library/Application Support/trip
-// Unix: ~/.trip
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\tripcoin
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\tripcoin
+// Mac: ~/Library/Application Support/tripcoin
+// Unix: ~/.tripcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Trip";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Tripcoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -442,10 +442,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Trip";
+    return pathRet / "Tripcoin";
 #else
     // Unix
-    return pathRet / ".trip";
+    return pathRet / ".tripcoin";
 #endif
 #endif
 }

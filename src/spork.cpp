@@ -130,8 +130,6 @@ int64_t GetSporkValue(int nSporkID)
         if (nSporkID == SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2) r = SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2_DEFAULT;
         if (nSporkID == SPORK_16_ZEROCOIN_MAINTENANCE_MODE) r = SPORK_16_ZEROCOIN_MAINTENANCE_MODE_DEFAULT;
         if (nSporkID == SPORK_17_PROPOSAL_VETO) r = SPORK_17_PROPOSAL_VETO_DEFAULT;
-        if (nSporkID == SPORK_18_SPORK_REWARDS) r = SPORK_18_SPORK_REWARDS_DEFAULT;
-        if (nSporkID == SPORK_19_REWARDS) r = SPORK_19_REWARDS_DEFAULT;
         if (nSporkID == SPORK_20_COLLATERAL) r = SPORK_20_COLLATERAL_DEFAULT;
 
         if (r == -1) LogPrintf("GetSpork::Unknown Spork %d\n", nSporkID);
@@ -274,8 +272,6 @@ int CSporkManager::GetSporkIDByName(std::string strName)
     if (strName == "SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2") return SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2;
     if (strName == "SPORK_16_ZEROCOIN_MAINTENANCE_MODE") return SPORK_16_ZEROCOIN_MAINTENANCE_MODE;
     if (strName == "SPORK_17_PROPOSAL_VETO") return SPORK_17_PROPOSAL_VETO;
-    if (strName == "SPORK_18_SPORK_REWARDS") return SPORK_18_SPORK_REWARDS;
-    if (strName == "SPORK_19_REWARDS") return SPORK_19_REWARDS;
     if (strName == "SPORK_20_COLLATERAL") return SPORK_20_COLLATERAL;
 
     return -1;
@@ -296,8 +292,6 @@ std::string CSporkManager::GetSporkNameByID(int id)
     if (id == SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2) return "SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2";
     if (id == SPORK_16_ZEROCOIN_MAINTENANCE_MODE) return "SPORK_16_ZEROCOIN_MAINTENANCE_MODE";
     if (id == SPORK_17_PROPOSAL_VETO) return "SPORK_17_PROPOSAL_VETO";
-    if (id == SPORK_18_SPORK_REWARDS) return "SPORK_18_SPORK_REWARDS";
-    if (id == SPORK_19_REWARDS) return "SPORK_19_REWARDS";
     if (id == SPORK_20_COLLATERAL) return "SPORK_20_COLLATERAL";
 
     return "Unknown";
