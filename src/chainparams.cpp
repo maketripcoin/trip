@@ -157,7 +157,7 @@ public:
 
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000869497e2ba8571b447bc179e12c9157efd92fb587bfb9e1b4bb63db9eb1"));
+        assert(hashGenesisBlock == uint256("0x00000cd26483f315fed5abd0f39ee4bc114f9ccf3848196c2f225af369ba1bc1"));
         assert(genesis.hashMerkleRoot == uint256("0x4d74e829f126e1778b81cb1c2180050040404f0504ddc946ec2b9e27e794f6a2"));
 		
 	vSeeds.push_back(CDNSSeedData("seeds.tripcoin.live", "seeds.tripcoin.live"));         // Primary DNS Seeder
