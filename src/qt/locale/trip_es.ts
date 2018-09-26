@@ -2831,7 +2831,7 @@ Por favor tenga paciencia...</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Bienvenido a la consola RPC de Rupaya.</translation>
     </message>
     <message>

@@ -2827,7 +2827,7 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Добре Дошли в RPC конзолата на Rupaya.</translation>
     </message>
     <message>

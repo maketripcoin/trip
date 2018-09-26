@@ -2832,7 +2832,7 @@ Please be patient...</source>
         <translation>출력:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Rupaya RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>

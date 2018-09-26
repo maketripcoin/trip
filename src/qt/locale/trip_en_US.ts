@@ -2484,8 +2484,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
-        <translation>Welcome to the Rupaya RPC console.</translation>
+        <source>Welcome to the TRIP RPC console.</source>
+        <translation>Welcome to the TRIP RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>

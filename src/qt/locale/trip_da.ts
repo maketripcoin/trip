@@ -2397,7 +2397,7 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Velkommen til Rupaya RPC konsollet</translation>
     </message>
     <message>

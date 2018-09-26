@@ -2822,7 +2822,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Willkommen in der Rupaya RPC-Konsole.</translation>
     </message>
     <message>

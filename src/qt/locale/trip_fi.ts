@@ -1654,7 +1654,7 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Tervetuloa Rupaya RPC konsoliin.</translation>
     </message>
     <message>

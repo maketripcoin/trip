@@ -2815,7 +2815,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Welkom bij de Rupaya RPC console.</translation>
     </message>
     <message>

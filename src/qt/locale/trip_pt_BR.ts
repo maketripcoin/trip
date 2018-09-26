@@ -2173,7 +2173,7 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Bem-vindo ao console da Rupaya RPC</translation>
     </message>
     <message>

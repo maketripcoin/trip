@@ -2486,7 +2486,7 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Rupaya RPC console.</source>
+        <source>Welcome to the TRIP RPC console.</source>
         <translation>Добро пожаловать в окружение Rupaya RPC.</translation>
     </message>
     <message>
