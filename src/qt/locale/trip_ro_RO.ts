@@ -186,6 +186,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>rupaya-core</name>
+    <name>trip-core</name>
     </context>
 </TS>

@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Rupaya adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your trip addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše trip adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Rupaya adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your trip addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše trip adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Rupaya will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
-        <translation>Rupaya se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše RUPy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>trip will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
+        <translation>trip se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše RUPy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Rupaya Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Rupaya adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a trip Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte trip adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>Rupaya adresa pro podepsání zprávy</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>trip adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Rupaya adresu</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto trip adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>Rupaya adresa zprávy byla podpsána</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>trip adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Rupaya adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou trip adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
-        <source>Send coins to a Rupaya address</source>
-        <translation>Odeslat platbuna Rupaya adresu</translation>
+        <source>Send coins to a trip address</source>
+        <translation>Odeslat platbuna trip adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and rupaya: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a rupaya: URIs)</translation>
+        <source>Request payments (generates QR codes and trip: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a trip: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Rupaya Core</source>
-        <translation>&amp;O Rupaya Core</translation>
+        <source>&amp;About trip Core</source>
+        <translation>&amp;O trip Core</translation>
     </message>
     <message>
-        <source>Show information about Rupaya Core</source>
-        <translation>Zobraz informace o Rupaya Core</translation>
+        <source>Show information about trip Core</source>
+        <translation>Zobraz informace o trip Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Rupaya</source>
-        <translation>Upravit možnosti konfigurace pro Rupaya</translation>
+        <source>Modify configuration options for trip</source>
+        <translation>Upravit možnosti konfigurace pro trip</translation>
     </message>
     <message>
-        <source>Sign messages with your Rupaya addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Rupaya adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your trip addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší trip adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Rupaya addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Rupaya adresami</translation>
+        <source>Verify messages to ensure they were signed with specified trip addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými trip adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Rupaya: URI or payment request</source>
-        <translation>Otevřít Rupaya: URI nebo platební žádost</translation>
+        <source>Open a trip: URI or payment request</source>
+        <translation>Otevřít trip: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Rupaya Core help message to get a list with possible Rupaya command-line options</source>
-        <translation>Zobrazit Rupaya Core pomocnou zpráv pro získání seznamu možných parametrů Rupaya pro příkazy do příkazové řádky</translation>
+        <source>Show the trip Core help message to get a list with possible trip command-line options</source>
+        <translation>Zobrazit trip Core pomocnou zpráv pro získání seznamu možných parametrů trip pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Rupaya Core client</source>
-        <translation>Rupaya Core klient</translation>
+        <source>trip Core client</source>
+        <translation>trip Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rupaya.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (rupaya.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (trip.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (trip.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1066,8 +1066,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Rupaya address.</source>
-        <translation>Zadaná adresa "%1" není validní Rupaya adresa.</translation>
+        <source>The entered address "%1" is not a valid trip address.</source>
+        <translation>Zadaná adresa "%1" není validní trip adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1112,12 +1112,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
-        <source>About Rupaya Core</source>
-        <translation>O Rupaya Core</translation>
+        <source>About trip Core</source>
+        <translation>O trip Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1151,16 +1151,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Rupaya Core.</source>
-        <translation>Vítejte v Rupaya Core.</translation>
+        <source>Welcome to trip Core.</source>
+        <translation>Vítejte v trip Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Rupaya Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Rupaya Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where trip Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude trip Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Rupaya Core will download and store a copy of the Rupaya block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Rupaya Core stáhne a uloží kopii Rupaya blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>trip Core will download and store a copy of the trip block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>trip Core stáhne a uloží kopii trip blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1171,8 +1171,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1520,12 +1520,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Rupaya after logging in to the system.</source>
-        <translation>Automaticky spustit Rupaya po přihlášení do systému</translation>
+        <source>Automatically start trip after logging in to the system.</source>
+        <translation>Automaticky spustit trip po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Rupaya on system login</source>
-        <translation>&amp;Spusti Rupaya při přihlášení do systému</translation>
+        <source>&amp;Start trip on system login</source>
+        <translation>&amp;Spusti trip při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2186,8 +2186,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>Rupaya adresa pro podepsání zprávy</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>trip adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2214,16 +2214,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Rupaya adresu</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto trip adresu</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>Rupaya adresa zprávy byla podpsána</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>trip adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Rupaya adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou trip adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2265,8 +2265,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     </context>
 <context>
@@ -2376,7 +2376,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>rupaya-core</name>
+    <name>trip-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

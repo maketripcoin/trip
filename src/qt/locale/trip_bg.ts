@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите Rupaya адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your trip addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите trip адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Rupaya адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your trip addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите trip адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Rupaya will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
-        <translation>Rupaya сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Rupaya от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>trip will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
+        <translation>trip сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия trip от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a Rupaya Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Rupaya адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+        <source>Enter a trip Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете trip адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>Rupaya адреса, с който да подпишете съобщението</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>trip адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Rupaya адрес</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този trip адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>Rupaya адреса, който е подписано съобщението</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>trip адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Rupaya адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения trip адрес</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Ядро</translation>
+        <source>trip Core</source>
+        <translation>trip Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a Rupaya address</source>
-        <translation>Изпратете монети до Rupaya адрес</translation>
+        <source>Send coins to a trip address</source>
+        <translation>Изпратете монети до trip адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and rupaya: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  Rupaya:URI)</translation>
+        <source>Request payments (generates QR codes and trip: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  trip:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -630,24 +630,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About Rupaya Core</source>
-        <translation>&amp;Относно Rupaya Ядрото</translation>
+        <source>&amp;About trip Core</source>
+        <translation>&amp;Относно trip Ядрото</translation>
     </message>
     <message>
-        <source>Show information about Rupaya Core</source>
-        <translation>Информациза за Rupaya Ядрото</translation>
+        <source>Show information about trip Core</source>
+        <translation>Информациза за trip Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for Rupaya</source>
-        <translation>Промени Rupaya конфигурацията</translation>
+        <source>Modify configuration options for trip</source>
+        <translation>Промени trip конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your Rupaya addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте Rupaya адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your trip addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте trip адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Rupaya addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните Rupaya адреси</translation>
+        <source>Verify messages to ensure they were signed with specified trip addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните trip адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a Rupaya: URI or payment request</source>
-        <translation>Отвори Rupaya:URI платежно нареждане</translation>
+        <source>Open a trip: URI or payment request</source>
+        <translation>Отвори trip:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the Rupaya Core help message to get a list with possible Rupaya command-line options</source>
-        <translation>Разкрийте Помощ за Rupaya Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the trip Core help message to get a list with possible trip command-line options</source>
+        <translation>Разкрийте Помощ за trip Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>Rupaya Core client</source>
-        <translation>Клиент Rupaya Ядро</translation>
+        <source>trip Core client</source>
+        <translation>Клиент trip Ядро</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Rupaya network</source>
-        <translation><numerusform>%n активни връзки към Rupaya мрежата</numerusform><numerusform>%n активни свръзки към Rupaya мрежата</numerusform></translation>
+        <source>%n active connection(s) to trip network</source>
+        <translation><numerusform>%n активни връзки към trip мрежата</numerusform><numerusform>%n активни свръзки към trip мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rupaya.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (rupaya.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (trip.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (trip.conf).</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Rupaya address.</source>
-        <translation>Зададения адрес "%1"не е валиден Rupaya адрес.</translation>
+        <source>The entered address "%1" is not a valid trip address.</source>
+        <translation>Зададения адрес "%1"не е валиден trip адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Ядро</translation>
+        <source>trip Core</source>
+        <translation>trip Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Rupaya Core</source>
-        <translation>Относно Rupaya Ядрото</translation>
+        <source>About trip Core</source>
+        <translation>Относно trip Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to Rupaya Core.</source>
-        <translation>Добре Дошли в Rupaya Ядрото</translation>
+        <source>Welcome to trip Core.</source>
+        <translation>Добре Дошли в trip Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Rupaya Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде Rupaya Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where trip Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде trip Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>Rupaya Core will download and store a copy of the Rupaya block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Rupaya Ядрото ще изтегли и запише копие на целия Rupaya блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>trip Core will download and store a copy of the trip block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>trip Ядрото ще изтегли и запише копие на целия trip блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Ядро</translation>
+        <source>trip Core</source>
+        <translation>trip Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Rupaya addresses after it matures.
-To Add: enter percentage to give and Rupaya address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other trip addresses after it matures.
+To Add: enter percentage to give and trip address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други Rupaya адреси.
-Да Добавите: въведете процент и задайте Rupaya адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други trip адреси.
+Да Добавите: въведете процент и задайте trip адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1580,15 +1580,15 @@ Please check the address and try again.</source>
         <translation>Конфигурация на Обфускацията</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rupaya's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening trip's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на елементарно ниво (%1 и 2 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rupaya's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening trip's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rupaya's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening trip's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -1650,8 +1650,8 @@ Please check the address and try again.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the Rupaya client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори Rupaya порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the trip client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори trip порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Please check the address and try again.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start Rupaya after logging in to the system.</source>
-        <translation>Стартирай Rupaya автоматично след влизане в системата.</translation>
+        <source>Automatically start trip after logging in to the system.</source>
+        <translation>Стартирай trip автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Rupaya on system login</source>
-        <translation>&amp;Стартирай Rupaya заедно с операционната система</translation>
+        <source>&amp;Start trip on system login</source>
+        <translation>&amp;Стартирай trip заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,14 +1702,14 @@ Please check the address and try again.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Rupaya.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting trip.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/rupaya-project/rupaya-project-translations</source>
+https://www.transifex.com/trip-project/trip-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/rupaya-project/rupaya-project-translations</translation>
+https://www.transifex.com/trip-project/trip-project-translations</translation>
     </message>
     <message>
         <source>Percentage of incoming RUPX which get automatically converted to zRUPX via Zerocoin Protocol (min: 10%)</source>
@@ -1728,8 +1728,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Предпочитани деноминации, в които да се сече автоматичен zRUPX</translation>
     </message>
     <message>
-        <source>Connect to the Rupaya network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с Rupaya мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the trip network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с trip мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1887,8 +1887,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rupaya network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Rupaya мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the trip network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с trip мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1974,12 +1974,12 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start rupaya: click-to-pay handler</source>
-        <translation>Провал при стартирането на rupaya: click-to-pay обработвател</translation>
+        <source>Cannot start trip: click-to-pay handler</source>
+        <translation>Провал при стартирането на trip: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Rupaya address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден Rupaya адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid trip address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден trip адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2072,8 +2072,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rupaya network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Rupaya мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the trip network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с trip мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
@@ -2176,7 +2176,7 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Rupaya address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The trip address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2376,8 +2376,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations</translatio
         <translation>Копирай сумата</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Rupaya network yet.</source>
-        <translation>Zerocoin функцията все още не е активирана в Rupaya мрежата.</translation>
+        <source>Zerocoin functionality is not enabled on the trip network yet.</source>
+        <translation>Zerocoin функцията все още не е активирана в trip мрежата.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2430,8 +2430,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Rupaya Address</source>
-        <translation>Невалиден Rupaya адрес</translation>
+        <source>Invalid trip Address</source>
+        <translation>Невалиден trip адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2521,8 +2521,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Rupaya address (e.g. %1)</source>
-        <translation>Задайте Rupaya адрес (например %1)</translation>
+        <source>Enter a trip address (e.g. %1)</source>
+        <translation>Задайте trip адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2659,8 +2659,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Rupaya debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори Rupaya дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the trip debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори trip дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2828,7 +2828,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Welcome to the TRIP RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на Rupaya.</translation>
+        <translation>Добре Дошли в RPC конзолата на trip.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2898,12 +2898,12 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Rupaya network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Rupaya мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the trip network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по trip мрежата.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Rupaya network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Rupaya мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the trip network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по trip мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3187,7 +3187,7 @@ Please be patient...</source>
         <translation>Ако собствената такса е настроена на 1000 uRUP и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uRUP входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uRUP. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Rupaya transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for trip transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3295,7 +3295,7 @@ Please be patient...</source>
         <translation>анонимни средства</translation>
     </message>
     <message>
-        <source>Warning: Invalid Rupaya address</source>
+        <source>Warning: Invalid trip address</source>
         <translation>Предупреждение: Невалиден RUPX адрес</translation>
     </message>
     <message>
@@ -3402,8 +3402,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Rupaya address to send the payment to</source>
-        <translation>Rupaya адреса - получател на плащането</translation>
+        <source>The trip address to send the payment to</source>
+        <translation>trip адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3442,8 +3442,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Rupaya: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Rupaya network.</source>
-        <translation>Съобщение, което е било прикачено към Rupaya:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по Rupaya мрежата.</translation>
+        <source>A message that was attached to the trip: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the trip network.</source>
+        <translation>Съобщение, което е било прикачено към trip:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по trip мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3469,8 +3469,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Rupaya Core is shutting down...</source>
-        <translation>Изключване на Rupaya Ядрото...</translation>
+        <source>trip Core is shutting down...</source>
+        <translation>Изключване на trip Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3492,8 +3492,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>Rupaya адреса, с който да подпишете съобщението</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>trip адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3524,16 +3524,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Rupaya адрес</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този trip адрес</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>Rupaya адреса, който е подписано съобщението</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>trip адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Rupaya адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения trip адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3619,8 +3619,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Ядро</translation>
+        <source>trip Core</source>
+        <translation>trip Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3635,8 +3635,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The Rupaya Core developers</source>
-        <translation>Rupaya Core разработчици</translation>
+        <source>The trip Core developers</source>
+        <translation>trip Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4286,7 +4286,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>rupaya-core</name>
+    <name>trip-core</name>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
@@ -4304,8 +4304,8 @@ Please be patient...</source>
         <translation>Изтрий всички преводи от портфейла и възстанови само тези части от блокчейна - сканира при стартиране.</translation>
     </message>
     <message>
-        <source>Disable all Rupaya specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи всякаква Rupaya функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
+        <source>Disable all trip specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи всякаква trip функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>

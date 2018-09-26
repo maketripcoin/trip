@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Rupaya will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
-        <translation>Rupaya va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos RUPs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>trip will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
+        <translation>trip va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos RUPs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Rupaya Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Rupaya que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a trip Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse trip que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>L'adresse Rupaya avec laquelle signer le message</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>L'adresse trip avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Rupaya</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse trip</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>L'adresse Rupaya avec laquelle le message a été signé</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>L'adresse trip avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Rupaya renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse trip renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Rupaya address</source>
-        <translation>Envoyer des pièces à une adresse Rupaya</translation>
+        <source>Send coins to a trip address</source>
+        <translation>Envoyer des pièces à une adresse trip</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Rupaya</source>
-        <translation>Modifier les options de configuration pour Rupaya</translation>
+        <source>Modify configuration options for trip</source>
+        <translation>Modifier les options de configuration pour trip</translation>
     </message>
     <message>
-        <source>Sign messages with your Rupaya addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Rupaya pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your trip addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse trip pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Rupaya addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Rupaya spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified trip addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse trip spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rupaya.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (rupaya.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (trip.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (trip.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Rupaya address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Rupaya valide</translation>
+        <source>The entered address "%1" is not a valid trip address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse trip valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1524,8 +1524,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Rupaya address to send the payment to</source>
-        <translation>L'adresse Rupaya à laquelle envoyer le paiement</translation>
+        <source>The trip address to send the payment to</source>
+        <translation>L'adresse trip à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1570,8 +1570,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>L'adresse Rupaya avec laquelle signer le message</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>L'adresse trip avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1598,16 +1598,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Rupaya</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse trip</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>L'adresse Rupaya avec laquelle le message a été signé</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>L'adresse trip avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Rupaya renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse trip renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1808,7 +1808,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>rupaya-core</name>
+    <name>trip-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

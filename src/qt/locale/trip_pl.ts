@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Rupaya jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres trip jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>&amp;Rdzeń Rupaya</translation>
+        <source>trip Core</source>
+        <translation>&amp;Rdzeń trip</translation>
     </message>
     <message>
-        <source>Send coins to a Rupaya address</source>
-        <translation>Wyślij monety do adresu Rupaya</translation>
+        <source>Send coins to a trip address</source>
+        <translation>Wyślij monety do adresu trip</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and rupaya: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i rupaya:URI)</translation>
+        <source>Request payments (generates QR codes and trip: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i trip:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Rupaya Core</source>
+        <source>&amp;About trip Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Rupaya Core</source>
+        <source>Show information about trip Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Rupaya</source>
-        <translation>Modyfikuj opcje konfiguracji Rupaya</translation>
+        <source>Modify configuration options for trip</source>
+        <translation>Modyfikuj opcje konfiguracji trip</translation>
     </message>
     <message>
-        <source>Sign messages with your Rupaya addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Rupaya, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your trip addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami trip, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Rupaya addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Rupaya</translation>
+        <source>Verify messages to ensure they were signed with specified trip addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu trip</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,7 +582,7 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Rupaya: URI or payment request</source>
+        <source>Open a trip: URI or payment request</source>
         <translation>OtwórzRUPXX: URI i żądanie zapłaty</translation>
     </message>
     <message>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Rupaya Core help message to get a list with possible Rupaya command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Rupaya, aby dostać listę możliwych opcji Rupaya command-line</translation>
+        <source>Show the trip Core help message to get a list with possible trip command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia trip, aby dostać listę możliwych opcji trip command-line</translation>
     </message>
     <message>
-        <source>Rupaya Core client</source>
-        <translation>Rdzeń Rupaya klient</translation>
+        <source>trip Core client</source>
+        <translation>Rdzeń trip klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Rupaya Core</source>
-        <translation>&amp;Rdzeń Rupaya</translation>
+        <source>trip Core</source>
+        <translation>&amp;Rdzeń trip</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>&amp;Rdzeń Rupaya</translation>
+        <source>trip Core</source>
+        <translation>&amp;Rdzeń trip</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Rupaya after logging in to the system.</source>
-        <translation>Automatycznie uruchom Rupaya po zalogowaniu do systemu</translation>
+        <source>Automatically start trip after logging in to the system.</source>
+        <translation>Automatycznie uruchom trip po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Rupaya on system login</source>
-        <translation>&amp;Uruchom Rupaya podczas logowania do systemu</translation>
+        <source>&amp;Start trip on system login</source>
+        <translation>&amp;Uruchom trip podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1212,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Rupaya.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Rupaya</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting trip.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie trip</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/rupaya-project/rupaya-project-translations</source>
+https://www.transifex.com/trip-project/trip-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/rupaya-project/rupaya-project-translations </translation>
+https://www.transifex.com/trip-project/trip-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Rupaya network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Rupaya poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the trip network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią trip poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations </translati
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Rupaya address (e.g. %1)</source>
-        <translation>Wprowadź adres Rupaya (np. %1)</translation>
+        <source>Enter a trip address (e.g. %1)</source>
+        <translation>Wprowadź adres trip (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations </translati
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Rupaya jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres trip jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations </translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Rupaya Core</source>
-        <translation>&amp;Rdzeń Rupaya</translation>
+        <source>trip Core</source>
+        <translation>&amp;Rdzeń trip</translation>
     </message>
     </context>
 <context>
@@ -2034,7 +2034,7 @@ https://www.transifex.com/rupaya-project/rupaya-project-translations </translati
     </message>
     </context>
 <context>
-    <name>rupaya-core</name>
+    <name>trip-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

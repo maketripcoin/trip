@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Rupaya per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your trip addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces trip per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Rupaya per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your trip addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces trip per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Rupaya will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
-        <translation>Rupaya es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus RUPX de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>trip will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
+        <translation>trip es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus RUPX de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
-        <source>Send coins to a Rupaya address</source>
-        <translation>Envia monedes a una adreça Rupaya</translation>
+        <source>Send coins to a trip address</source>
+        <translation>Envia monedes a una adreça trip</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Rupaya Core</source>
-        <translation>&amp;Sobre Rupaya Core</translation>
+        <source>&amp;About trip Core</source>
+        <translation>&amp;Sobre trip Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Rupaya Core client</source>
-        <translation>Client Rupaya core</translation>
+        <source>trip Core client</source>
+        <translation>Client trip core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Rupaya network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Rupaya</numerusform><numerusform>%n connexions actives a la xarxa Rupaya</numerusform></translation>
+        <source>%n active connection(s) to trip network</source>
+        <translation><numerusform>%n connexió activa a la xarxa trip</numerusform><numerusform>%n connexions actives a la xarxa trip</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Rupaya address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Rupaya vàlida.</translation>
+        <source>The entered address "%1" is not a valid trip address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça trip vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Rupaya Core</source>
-        <translation>Sobre Rupaya Core</translation>
+        <source>About trip Core</source>
+        <translation>Sobre trip Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Rupaya Core.</source>
-        <translation>Benvingut a Rupaya Core.</translation>
+        <source>Welcome to trip Core.</source>
+        <translation>Benvingut a trip Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Rupaya Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Rupaya Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where trip Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del trip Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Rupaya after logging in to the system.</source>
-        <translation>Inicia Rupaya automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start trip after logging in to the system.</source>
+        <translation>Inicia trip automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Rupaya Core is shutting down...</source>
-        <translation>Rupaya Core s'està tancant...</translation>
+        <source>trip Core is shutting down...</source>
+        <translation>trip Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>rupaya-core</name>
+    <name>trip-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

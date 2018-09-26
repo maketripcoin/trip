@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Rupaya per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your trip addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi trip per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Rupaya addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Rupaya per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your trip addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi trip per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Rupaya will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
-        <translation>Rupaya verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi RUPX dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>trip will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RUPs from being stolen by malware infecting your computer.</source>
+        <translation>trip verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi RUPX dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Rupaya Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Rupaya che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a trip Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo trip che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>L'indirizzo Rupaya per firmare il messaggio con</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>L'indirizzo trip per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Rupaya</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo trip</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>L'indirizzo Rupaya con cui è stato firmato il messaggio</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>L'indirizzo trip con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Rupaya specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo trip specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
-        <source>Send coins to a Rupaya address</source>
-        <translation>Invia monete all' indirizzo Rupaya</translation>
+        <source>Send coins to a trip address</source>
+        <translation>Invia monete all' indirizzo trip</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and rupaya: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e rupaya: URIs)</translation>
+        <source>Request payments (generates QR codes and trip: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e trip: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Rupaya Core</source>
-        <translation>&amp;Informazioni Rupaya Core</translation>
+        <source>&amp;About trip Core</source>
+        <translation>&amp;Informazioni trip Core</translation>
     </message>
     <message>
-        <source>Show information about Rupaya Core</source>
-        <translation>Visualizza informazioni su Rupaya Core</translation>
+        <source>Show information about trip Core</source>
+        <translation>Visualizza informazioni su trip Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Rupaya</source>
-        <translation>Modifica le opzioni di configurazione per Rupaya</translation>
+        <source>Modify configuration options for trip</source>
+        <translation>Modifica le opzioni di configurazione per trip</translation>
     </message>
     <message>
-        <source>Sign messages with your Rupaya addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Rupaya per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your trip addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi trip per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Rupaya addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Rupaya specifici</translation>
+        <source>Verify messages to ensure they were signed with specified trip addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi trip specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Rupaya: URI or payment request</source>
-        <translation>Apri un Rupaya: URI o richiesta di pagamento</translation>
+        <source>Open a trip: URI or payment request</source>
+        <translation>Apri un trip: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Rupaya Core help message to get a list with possible Rupaya command-line options</source>
-        <translation>Mostra il messaggio di aiuto Rupaya Core per ottenere un elenco con le possibili opzioni di riga di comando Rupaya</translation>
+        <source>Show the trip Core help message to get a list with possible trip command-line options</source>
+        <translation>Mostra il messaggio di aiuto trip Core per ottenere un elenco con le possibili opzioni di riga di comando trip</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rupaya.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (rupaya.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (trip.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (trip.conf)</translation>
     </message>
 </context>
 <context>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +915,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1144,8 +1144,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Rupaya address to sign the message with</source>
-        <translation>L'indirizzo Rupaya per firmare il messaggio con</translation>
+        <source>The trip address to sign the message with</source>
+        <translation>L'indirizzo trip per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Rupaya address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Rupaya</translation>
+        <source>Sign the message to prove you own this trip address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo trip</translation>
     </message>
     <message>
-        <source>The Rupaya address the message was signed with</source>
-        <translation>L'indirizzo Rupaya con cui è stato firmato il messaggio</translation>
+        <source>The trip address the message was signed with</source>
+        <translation>L'indirizzo trip con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Rupaya address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Rupaya specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified trip address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo trip specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1215,8 +1215,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Rupaya Core</source>
-        <translation>Rupaya Core</translation>
+        <source>trip Core</source>
+        <translation>trip Core</translation>
     </message>
     </context>
 <context>
@@ -1314,7 +1314,7 @@ MultiSend: %1</translation>
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>rupaya-core</name>
+    <name>trip-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>
